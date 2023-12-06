@@ -11,7 +11,7 @@ public class LMG_T1 : ModuleRules
 		PublicDependencyModuleNames.AddRange(new string[]
 			{ "Core", "CoreUObject", "Engine", "InputCore", "EnhancedInput", "GameplayAbilities" });
 
-		PrivateDependencyModuleNames.AddRange(new string[] { "GameplayAbilities", "GameplayTags", "GameplayTasks" });
+		PrivateDependencyModuleNames.AddRange(new string[] {  "GameplayTags", "GameplayTasks" });
 
 		// 如果你正在使用Slate UI，请取消注释以下代码
 		// PrivateDependencyModuleNames.AddRange(new string[] { "Slate", "SlateCore" });
