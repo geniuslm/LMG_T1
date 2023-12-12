@@ -7,12 +7,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4393dcd-668d-43c1-b04b-dce6e398c268" name="更改" comment="继续设置Effect 这个翻译成影响和效果结果&#10;用来控制 set 属性">
+    <list default="true" id="a4393dcd-668d-43c1-b04b-dce6e398c268" name="更改" comment="制作小部件">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LMG_T1.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LMG_T1.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Character/LM_Character/ABP_LM.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Character/LM_Character/ABP_LM.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Game/BP_LM_GameMode.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Game/BP_LM_GameMode.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/UI/Overlay/WBP_Overlay.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/UI/Overlay/WBP_Overlay.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Maps/LMap.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Maps/LMap.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LMG_T1.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/LMG_T1.uproject" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/LMG_T1/Private/Actor/LM_EffectActor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/LMG_T1/Private/Actor/LM_EffectActor.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/LMG_T1/Public/Actor/LM_EffectActor.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/LMG_T1/Public/Actor/LM_EffectActor.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/LMG_T1/Private/Charactor/LM_Character.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/LMG_T1/Private/Charactor/LM_Character.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/LMG_T1/Private/Player/LM_PlayerController.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/LMG_T1/Private/Player/LM_PlayerController.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/LMG_T1/Private/UI/WidgetController/LM_WidgetController.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/LMG_T1/Private/UI/WidgetController/LM_WidgetController.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/LMG_T1/Public/Player/LM_PlayerController.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/LMG_T1/Public/Player/LM_PlayerController.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/LMG_T1/Public/UI/WidgetController/LM_WidgetController.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/LMG_T1/Public/UI/WidgetController/LM_WidgetController.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +30,11 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://E:/UE/LMG_T1/LMG_T1/Source/LMG_T1/LMG_T1.Build.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://E:/UE/LMG_T1/LMG_T1/Source/LMG_T1/LMG_T1.Build.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://E:/UE/LMG_T1/LMG_T1/Source/LMG_T1/Private/Actor/LM_EffectActor.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://E:/UE/LMG_T1/LMG_T1/Source/LMG_T1/Private/Actor/LM_EffectActor.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://E:/UE/LMG_T1/LMG_T1/Source/LMG_T1/Public/Actor/LM_EffectActor.h" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -142,7 +150,7 @@
       <workItem from="1701852856062" duration="3647000" />
       <workItem from="1701861960533" duration="10757000" />
       <workItem from="1701950500512" duration="4512000" />
-      <workItem from="1702126283637" duration="13297000" />
+      <workItem from="1702126283637" duration="24161000" />
     </task>
     <task id="LOCAL-00001" summary="添加gas能力系统组件&#10;Ability的Componnent&#10;和 AttributeSet">
       <option name="closed" value="true" />
@@ -176,7 +184,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702126972562</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="制作小部件">
+      <option name="closed" value="true" />
+      <created>1702311366971</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1702311366971</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,6 +216,18 @@
     <MESSAGE value="设置属性 和属性的网络同步" />
     <MESSAGE value="更新了Rider编辑器 所以很多文件都要更新" />
     <MESSAGE value="继续设置Effect 这个翻译成影响和效果结果&#10;用来控制 set 属性" />
-    <option name="LAST_COMMIT_MESSAGE" value="继续设置Effect 这个翻译成影响和效果结果&#10;用来控制 set 属性" />
+    <MESSAGE value="制作小部件" />
+    <option name="LAST_COMMIT_MESSAGE" value="制作小部件" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Source/LMG_T1/Private/UI/HUD/LM_HUD.cpp</url>
+          <line>37</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
